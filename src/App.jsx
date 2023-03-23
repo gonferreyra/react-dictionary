@@ -20,7 +20,6 @@ function App() {
       if (data) {
         setSearchResult(data[0]);
         setSearch(true);
-        console.log(searchResult);
       }
     } catch (error) {
       console.log(error);
