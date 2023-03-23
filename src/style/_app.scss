@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  input {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    font-size: inherit;
+    padding-left: 5px;
+  }
+}
+
+.api__content {
+  .title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+
+.source__url {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.source__license {
+  p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  a {
+    font-size: 14px;
+  }
+}
+
+.dark {
+  background: #333;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+  a {
+    color: #333;
+  }
+}
